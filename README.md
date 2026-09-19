@@ -17,6 +17,7 @@ Actualmente, parte de la información administrativa puede encontrarse registrad
 Esta situación puede dificultar:
 
 - El control exacto del inventario.
+- El control de las mensualidades de las alumnas.
 - La consulta de las cantidades disponibles.
 - El registro de compras y ventas.
 - El seguimiento de pagos.
@@ -32,7 +33,7 @@ El sistema está compuesto por los siguientes módulos:
 1. Inicio de sesión.
 2. Dashboard principal.
 3. Gestión de personas.
-4. Gestión académica.
+4. Gestión de mensualidades por parte de las alumnas.
 5. Inventario.
 6. Compras.
 7. Ventas.
@@ -62,8 +63,7 @@ Muestra un resumen de la información administrativa del sistema, como:
 Permite registrar y administrar los datos de:
 
 - Alumnas.
-- Clientes.
-- Modistas externas.
+- Clientes (Me refiero a clientes externos).
 
 ### 4. Gestión académica
 
@@ -97,7 +97,7 @@ Permite registrar las compras de materiales y productos utilizados por el taller
 
 ### 7. Ventas
 
-Permite registrar las ventas de materiales y productos a alumnas, clientes y modistas externas.
+Permite registrar las ventas de materiales y productos a alumnas y clientes externos.
 
 ### 8. Pagos y deudas
 
@@ -210,8 +210,3 @@ Para ejecutar el proyecto localmente, se deben realizar los siguientes pasos:
 6. Configurar el archivo `.env`.
 7. Configurar la conexión con la base de datos.
 8. Ejecutar el proyecto con CodeIgniter.
-
-El proyecto puede ejecutarse mediante el siguiente comando:
-
-```bash
-php spark serve
